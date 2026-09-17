@@ -1,0 +1,56 @@
+How to setup cisco packet tracer in linux: Commands;
+
+First you switch or change your current directories:
+
+cd Downloads
+
+Using these command to find your .deb file
+
+ls
+
+then you have to update your distro like
+
+sudo apt update
+
+Now install it 
+
+sudo apt install ./CiscoPacketTracer_901_Ubuntu_64bit.deb
+
+if you see like this 
+
+Please review Cisco Packet Tracer End User Licese Agreement (EULA)
+
+Enter 1, 2 or 3 at the prompt below
+1) Show EULA text again
+2) Accept EULA
+3) Decline EULA
+
+Then you have to press 2 hit enter
+
+Then launch:
+
+packettracer
+
+If you get an error
+
+Run:
+
+sudo apt --fix-broken install
+
+and then:
+
+sudo apt install ./CiscoPacketTracer_901_Ubuntu_64bit.deb
+
+
+all commands you need I repeat;
+
+cd Downloads
+ls
+sudo apt update
+sudo apt --fix-broken install
+sudo apt install ./CiscoPacketTracer_901_Ubuntu_64bit.deb
+packettracer
+
+
+
+
